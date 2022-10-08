@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Mahasiswa{
+    public:
+        string NPM;
+        string Nama;
+        string Umur;
+        string Kelas;
+        string Hobi;
+        string Cita;
+
+
+};
+
+int main(int argc, char const *argv[])
+{
+    Mahasiswa FRP;
+    FRP.NPM = "2210631170120.";
+    FRP.Nama = "Farhan Ramadhan Praditya.";
+    FRP.Umur = "19.";
+    FRP.Kelas = "1D.";
+    FRP.Hobi = "Main.";
+    FRP.Cita = "Game developer.";
+
+    cout << "NPM    : " << FRP.NPM << endl;
+    cout << "Nama Lengkap   : " << FRP.Nama << endl;
+    cout << "Umur   : " << FRP.Umur << endl;
+    cout << "Kelas  : " << FRP.Kelas << endl;
+    cout << "Hobi   : " << FRP.Hobi << endl;
+    cout << "Cita-cita  : " << FRP.Cita << endl;
+    
+    return 0;
+}
